@@ -1,0 +1,111 @@
+#container{
+    border: 1px solid black;
+    height: 100vw;
+    width: 100%;
+    display: flex;
+}
+
+
+#left{
+border: 1px solid red;
+height:90vw;
+width:48%;
+margin: auto;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: auto;
+gap:15px;
+}
+
+#right{
+    border:1px solid purple;
+    height: 90vw;
+    width: 48%;
+    margin: auto;
+    
+}
+
+.leftdiv{
+    border:1px solid blue;
+
+
+
+}
+
+#rating{
+    border:1px solid red;
+    height:2vw;
+    width:10vw;
+    margin-left: 10px;
+}
+
+#minipara{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left:9px;
+    
+}
+
+p{
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 20px;
+
+}
+
+h3{
+
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+h2{
+    margin-left: 10px;
+
+}
+
+#mindiv{
+    border:1px solid red;
+    height: 90px;
+    width: auto;
+    display: flex;
+    
+}
+
+.mindiv{
+
+    height: 80px;
+    border:1px solid black;
+    width: 80px;
+    border-radius: 50px;
+    
+    margin-left: 0.5vw;
+    font-weight: bold;
+    text-align: center;
+    
+
+}
+
+#bag{
+    height: 100px;
+    width: auto;
+    border:1px solid green;
+    margin-top: 3vw;
+    margin-left: 0.5vw;
+    margin-right: 2vw;
+    display: flex;
+
+}
+
+.bag{
+    border:1px solid black;
+    height:3.5vw;
+    width: 21vw;
+    margin: auto;
+    font-size: 40px;
+    text-align:center;
+    margin-top: 0.5vw;
+    background-color: red;
+    color:white;
+}
