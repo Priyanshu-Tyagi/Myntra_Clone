@@ -1,0 +1,74 @@
+body {
+    padding: 0px;
+    margin: 0px;
+  }
+  #nav {
+    height: 60px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    text-decoration: none;
+  }
+  .text {
+    text-decoration: none;
+    color: black;
+  }
+  input {
+    background-color: rgb(229, 241, 241);
+    height: 30px;
+    width: 450px;
+  }
+  sup {
+    color: red;
+  }
+  #input-group {
+    border-radius: 5px;
+    border-color: white;
+
+    border: none;
+    background-color: rgb(253, 244, 244);
+    resize: none;
+    outline: none;
+  }
+  #myntralogo {
+    width: 150px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+  }
+  .profile img {
+    height: 22px;
+    margin-bottom: -20px;
+  }
+  .profile p {
+    /* height: 10px; */
+    font-size: 15px;
+  }
+  .logali {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .has-search .form-control {
+    padding-left: 2.375rem;
+  }
+
+  .has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    /* pointer-events:; */
+    cursor: pointer;
+    color: #aaa;
+  }
+
+  input[type="text"] {
+    outline: none;
+    box-shadow: none !important;
+    border: 1px solid #ccc !important;
+  }
