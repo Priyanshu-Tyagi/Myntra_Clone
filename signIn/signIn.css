@@ -1,9 +1,11 @@
 #main{
-    border: 2px solid red;
+    /* border: 2px solid red; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     width: 30%;
     margin: auto;
     text-align: left;
     height: 500px;
+    margin-top: 150px;
 }
 img{
     width: 100%;
@@ -11,15 +13,35 @@ img{
 #under_main{
     padding-left: 5%;
 }
-#inpsub{
-    background-color:#ff3f6c;
-    color: white;
+#inp_sub{
+    cursor: pointer;
+    background-color: #ff3f6c;
+    text-align: center;
+    padding: 12px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
     width: 90%;
-    height: 50px;
+    border: none;
 
 }
-#inpnum{
+#inp_num{
     width: 90%;
     height: 50px;
+    border: 1px solid #d4d5d9;
 
+}
+.color{
+    color: #ff3f6c;
+}
+#title_txt{
+    display: flex;
+    gap: 10px;
+    
+    
+}
+.p1{
+    margin-top: 28px;
+    
 }

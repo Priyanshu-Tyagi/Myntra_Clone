@@ -1,0 +1,47 @@
+#main{
+    margin: auto;
+    width: 30%;
+    height: 600px;
+    /* border: 2px solid red; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#img_promo{
+    width: 100%;
+}
+#inp_pwd{
+    width: 90%;
+    height: 40px;
+}
+#under_main{
+    padding-left: 5%;
+}
+#icon{
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    gap: 20px;
+}
+#icon>img{
+    width: 50px;
+    padding-left: 5%;
+    height: 40px;
+    cursor: pointer;
+}
+#login_but{
+    margin-top: 10px;
+    width: 92%;
+    background-color: #ff3f6c;
+    height: 35px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    
+}
+#new_acc{
+    margin-top: 30px;
+    width: 88%;
+    margin-left: 5%;
+    height: 40px;
+    color: #ff3f6c;
+    cursor: pointer;
+}
