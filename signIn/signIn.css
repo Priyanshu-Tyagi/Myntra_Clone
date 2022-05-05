@@ -1,0 +1,25 @@
+#main{
+    border: 2px solid red;
+    width: 30%;
+    margin: auto;
+    text-align: left;
+    height: 500px;
+}
+img{
+    width: 100%;
+}
+#under_main{
+    padding-left: 5%;
+}
+#inpsub{
+    background-color:#ff3f6c;
+    color: white;
+    width: 90%;
+    height: 50px;
+
+}
+#inpnum{
+    width: 90%;
+    height: 50px;
+
+}
