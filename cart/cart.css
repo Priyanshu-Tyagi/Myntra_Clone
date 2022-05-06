@@ -1,7 +1,9 @@
 *{
     margin:0px;
-    font-family: Whitney,Helvetica,Arial,sans-serif!important;}
+    font-family: Whitney,Helvetica,Arial,sans-serif!important;
+}
 div{border:1px solid green}
+#part21>div{padding: 8px;}
 #process-bar{
     display: flex;
     height: 80px;
@@ -128,15 +130,32 @@ span>li>span{
     color: #535766;
     font-weight: 600;
 }
+#wishlist{
+    display: flex;
+    font-size: 14px;
+}
+#wishlist>img{
+    width: 3%;
+    margin-left: 8px;
+}
+#wishlist>p{
+    align-self: center;
+    font-weight: 600;
+    color: #282c3f;
+    margin-left: 10px;
+}
+#wishlist>p:hover{
+    text-decoration: underline 1px #282c3f;
+}
 #part3{
     margin: auto;
     margin-top: 20px;
     width:73.4%;
-    height: 400px;
+    height: auto;
 }
 #part4{
     margin: auto;
-    margin-top: 20px;
+    margin-top: 60px;
     margin-bottom: 10px;
     width:73.4%;
     height: auto;
@@ -155,10 +174,38 @@ width: 65%;
 }
 #part22{
     width: 35%;
+    height: auto;
 }
 #part22>div{
     margin-top: 10px;
-    height: 40px;
+    height: auto;
+    width: 90%;
+    margin: auto;
+}
+#donate{
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 12px;
+    color: #535766;
+}
+#helpcovid{
+    display:flex
+}
+#helpcovid>p{
+    align-self:center ;
+    margin-left: 10px;
+}
+#donateRs{
+    display: flex;
+}
+#donateRs>div{
+    cursor: pointer;
+    border-radius: 40px;
+    margin: 0px 8px 12px 0px;
+    white-space: nowrap;
+    align-self: center;
+    height: fit-content;
+    padding: 10px 0px 0px 6px;
 }
 #pincode{
     margin-top: 10px;
@@ -169,6 +216,77 @@ width: 65%;
 }
 /* #part4>div{
 } */
+#wishfilter{
+    height: 16%;
+    font-size: 16px;
+    font-weight: 600;
+    color: #282c3f;
+    padding: 10px 0px 0px 6px;
+    border-top: 1px solid #7e818c;
+}
+#filterdiv{
+    display: flex;
+    margin-top: 8px;
+}
+#filterdiv>div{
+    border: 1px solid #282c3f;
+    font-weight: 600;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 40px;
+    margin: 0 8px 0px 0;
+    /* #ff3f6c; */
+}
+#cardcontainer{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 10px;
+    width: 90%;
+    margin-top: 20px;
+}
+#card{
+    border: 1px solid #eaeaec ;
+}
+#youlikedesc{
+    color: #7e818c;
+    /* white-space: nowrap; */
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+    font-size: 12px;
+    min-height: 16px;
+}
+#pricesdiv{
+    display: flex;
+    margin: 5px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 13px;
+}
+#youlikeprice{
+    font-weight: 600;
+    color: #282c3f;
+    padding-right: 5px;
+}
+#youlikepricecut{
+    text-decoration: line-through;
+    color: #bfc0c6;
+    fill: #bfc0c6;
+}
+#youlikeoff{
+    color: #ff3f6c;
+    padding-left: 2px;
+}
+#addtocart{
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+    color: #ff3f6c;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: Whitney,Helvetica,Arial,sans-serif!important; 
+    margin-bottom: 0px;
+}
 #paylogo{
     display: grid;
     width: 65%;
