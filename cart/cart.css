@@ -2,7 +2,7 @@
     margin:0px;
     font-family: Whitney,Helvetica,Arial,sans-serif!important;
 }
-div{border:1px solid green}
+/* div{border:1px solid green} */
 #part21>div{padding: 8px;}
 #process-bar{
     display: flex;
@@ -57,14 +57,40 @@ ol>li{
 }
 #part2{
     margin: auto;
-    margin-top: 20px;
     height: auto;
     width:73.4%;
     display: flex;
     padding-bottom: 10px;
 }
+#pincode{
+    margin-top: 10px; ;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #f5f5f6;
+}
+#pincode>div{
+    align-self: center;
+}
+#pincode>div>p{
+    color:#282c3f;
+}
+#pin{
+    font-weight: 600;
+    padding-left: 8px;
+}
+#pinchange{
+    border: 1px solid #ff3f6c;
+    color: #ff3f6c;
+    padding: 8px 16px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
 #offer{
     height: auto;
+    border:1px solid #f5f5f6;
 }
 #offerlogobox{
     display: flex;
@@ -116,6 +142,7 @@ span>li>span{
 #delivery{
     display: flex;
     color:#3e4152;
+    border:1px solid #f5f5f6;
     font-size: 14px;
 }
 #delivery>img{
@@ -133,6 +160,7 @@ span>li>span{
 #wishlist{
     display: flex;
     font-size: 14px;
+    border:1px solid #f5f5f6;
 }
 #wishlist>img{
     width: 3%;
@@ -154,8 +182,13 @@ span>li>span{
     height: auto;
 }
 #part4{
+    width: 100%;
+    margin-top: 40px;
+    border-top:1px solid #f5f5f6;
+}
+#paycontainer{
     margin: auto;
-    margin-top: 60px;
+    margin-top: 12px;
     margin-bottom: 10px;
     width:73.4%;
     height: auto;
@@ -175,12 +208,18 @@ width: 65%;
 #part22{
     width: 35%;
     height: auto;
+    border-left:1px solid #eaeaec;
 }
 #part22>div{
-    margin-top: 10px;
+    margin: 10px;
+    padding-top: 20px;
     height: auto;
     width: 90%;
     margin: auto;
+}
+#covid{
+    border-bottom: 1px solid #f5f5f6;
+    margin-top: 20px;
 }
 #donate{
     margin-bottom: 16px;
@@ -194,25 +233,92 @@ width: 65%;
 #helpcovid>p{
     align-self:center ;
     margin-left: 10px;
+    font-size: 14px;
+    font-weight: 600;
 }
 #donateRs{
     display: flex;
+    margin-top: 8px;
 }
 #donateRs>div{
     cursor: pointer;
     border-radius: 40px;
-    margin: 0px 8px 12px 0px;
     white-space: nowrap;
     align-self: center;
     height: fit-content;
-    padding: 10px 0px 0px 6px;
+    margin-right: 6px;
+    padding: 6px 10px;
+    font-size: 14px;
+    border: 1px solid #d4d5d9;
+    color: #282c3f;
 }
-#pincode{
-    margin-top: 10px;
+#knowmore{
+    margin: 10px 0px 10px 0px;
+    font-weight: 600;
+    cursor: pointer;
+    width: fit-content;
+    color: #ff3f6c;
+}
+#coupon{
+    border-bottom: 1px solid #f5f5f6;
+    height: auto;
+    padding-bottom: 10px;
+}
+#applycontainer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+#applycoupon{
+    display: flex;
+    width: auto;
+}
+#apply{
+    font-size: 12px;
+    /* position: absolute; */
+    top: 0px;
+    right: 0px;
+    padding: 4px 16px;
+    font-weight: 600;
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border: 1px solid rgb(255,63,108);
+    color: rgb(255,63,108);
+    cursor: pointer;
+}
+#giftcontainer{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f5f5f6;
+}
+#giftcontainer>div{
+    font-size: 12px;
+    font-weight: 600;
+    color: #535766;
+}
+#giftimg{
+    margin-top: 8px;
+    width: 100%;
+}
+#totalprice{
+    display: flex;
+    margin-bottom: 6px;
+    justify-content: space-between;
+}
+#button{
+    width: 100%;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 2px;
+    border-width: 0px;
+    padding: 10px 16px;
+    background-color: rgb(255, 63, 108);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
 }
 #offerlist{
     height: auto;
-    border: 1px solid blue;
 }
 /* #part4>div{
 } */
