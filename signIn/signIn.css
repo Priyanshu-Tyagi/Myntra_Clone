@@ -26,10 +26,11 @@ img{
     border: none;
 
 }
-#inp_num{
+#inp_num,#inp_pwd{
     width: 90%;
     height: 50px;
     border: 1px solid #d4d5d9;
+    margin-top: 10px;
 
 }
 .color{

@@ -1,20 +1,18 @@
-document.querySelector("#inp_sub").addEventListener("click",clickFun);
-var arr=JSON.parse(localStorage.getItem("userMobile")) || [];
 
+document.querySelector("#inp_sub").addEventListener("click",clickFun);
 function clickFun(){
-    event.preventDefault();
-    const mobNum = document.querySelector('#inp_num').value;
-    if(mobNum<1000000000){
-        alert("input valid Mobile Number");
-    }
-    else{
-        var mobObj = {
-            userMob: document.querySelector('#inp_num').value
-        };
-          arr.push(mobObj);
-          console.log(arr);
-          localStorage.setItem("userMobile", JSON.stringify(arr));
-          // redirect to applied jobs
-          window.location.href = "signup.html";
+    const mobile = document.querySelector('#inp_num').value;
+    const pwd = document.querySelector('#inp_pwd').value;
+
+    var x=JSON.parse(localStorage.getItem("userData"));
+    console.log(x);
+    x.forEach(element => {
+        if(mobile==element.mob && pwd==element.pwd){
+            alert("login successful");
         }
-    }
+        else{
+            alert("incorrect Mobile or Password");
+        }
+    });
+   
+}
