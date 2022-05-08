@@ -8,7 +8,8 @@ function clickFun(){
     console.log(x);
     x.forEach(element => {
         if(mobile==element.mob && pwd==element.pwd){
-            alert("login successful");
+            // alert("login successful");
+            window.location.href="index.html";
         }
         else{
             alert("incorrect Mobile or Password");
