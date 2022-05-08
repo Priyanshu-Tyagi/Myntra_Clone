@@ -1,0 +1,359 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+  }
+  .deals {
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+  }
+  .dealssize {
+    height: 250px;
+    width: 100%;
+  }
+  .bestbrands {
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+    grid-auto-rows: repeat(2, 250px);
+    gap: 5px;
+  }
+  .brandsize {
+    /* gap: 5px; */
+    height: 250px;
+    width: 100%;
+    /* margin: 2px; */
+  }
+  .toppicks {
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    justify-content: space-between;
+  }
+  .toppicksize {
+    height: 250px;
+    width: 100%;
+  }
+  .catbagsize {
+    height: 230px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .catbag {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(3, 230px);
+  }
+  .dealsbrandsize {
+    height: 300px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .dealsonbrands {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(3, 300px);
+  }
+  .slashedpricessize {
+    height: 230px;
+    width: 100%;
+  }
+  .slashedprices {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(2, 230px);
+  }
+  .bestbuyssize{
+      height: 230px;
+      width: 100%;
+  }
+  .bestbuys{
+      display: grid;
+      grid-template-columns: repeat(8,1fr);
+      grid-template-rows: repeat(2,230px);
+  }
+  .luxe{
+    display: grid;
+      grid-template-columns: repeat(8,1fr);
+      grid-template-rows: repeat(2,250px);
+     
+      /* margin: -10px; */
+  }
+  .luxesize{
+      height: 250px;
+      width: 100%;
+      
+  }
+  .giftcardssize{
+    width: 100%;
+  }
+  .giftcards{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+  }
+  #dealslatest{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,220px);
+  }
+  #dealslatestsize{
+    width: 100%;
+    height:220px ;
+  }
+  #spring{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(2,250px);
+  }
+  #springsize{
+    width: 100%;
+    height: 250px;
+  }
+
+  #stylecast{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+
+  }
+  #stylecastsize{
+    width: 100%;
+    height:290px ;
+  }
+  #trendsher{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+  }
+  #trendshersize{
+    width: 100%;
+    height: 250px;
+  }
+  #trendshim{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+  }
+  #trendshimsize{
+    width: 100%;
+    height: 250px;
+  }
+  #kidswear{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+  }
+  #kidswearsize{
+    width: 100%;
+    height: 250px;
+  }
+   img{
+     cursor: pointer;
+   }
+   h1{
+     margin: 50px;
+     font-family: sans-serif;
+   }
+   #topbrands{
+     display: grid;
+     grid-template-columns: repeat(8,1fr);
+   }
+   #topbrandssize{
+     width: 100%;
+     height: 250px;
+   }
+   #summerchecklist{
+
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+   }
+   #summerchecklistsize{
+     width: 100%;
+     height: 250px;
+   }
+   #newness{
+     display: grid;
+     grid-template-columns: repeat(4,1fr);
+     grid-template-rows: repeat(2,260px);
+
+   }
+   #newnesssize{
+    width: 100%;
+     height: 260px;
+   }
+   #beauty_grooming{
+     display: grid;
+     grid-template-columns: repeat(4,1fr);
+     grid-template-rows: repeat(2,250px);
+   }
+   #beauty_groomingsize{
+     width: 100%;
+     height: 250px;
+
+    }
+    #unmissable{
+      display: grid;
+      grid-template-columns: repeat(8,1fr);
+    }
+    #unmissablesize{
+      width: 100%;
+      height: 250px;
+    }
+    #coloursofseason{
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      grid-template-rows: repeat(2,250px);
+    }
+    #coloursofseasonsize{
+      width: 100%;
+      height: 250px;
+    }
+    #influencers{
+      display: grid;
+      grid-template-columns: repeat(6,1fr);
+    }
+    #influencerssize{
+      height: 230px;
+      width: 100%;
+    }
+
+    
+
+    #budgetinfluencers{
+      display: grid;
+      grid-template-columns: repeat(8,1fr);
+    }
+    #budgetinfluencerssize{
+      height: 250px;
+      width: 100%;
+    }
+    #trendinginfluencers{
+      display: grid;
+      grid-template-columns: repeat(8,1fr);
+    }
+    #trendinginfluencerssize{
+      width: 100%;
+      height: 250px;
+    }
+    .div{
+ 
+      justify-content: center;
+
+      padding-left: 70px;
+      
+    }
+
+    .container{
+      height: 100%;
+      width: 80%;
+      /* background-color: aliceblue; */
+      display: flex;
+      gap: 30px;
+      padding: 40px;
+      justify-content: space-evenly;
+
+
+    }
+    #supdivred{
+      background-color: red;
+      border-radius: 5px;
+      width: 30px;
+      margin-left: 10px;
+    }
+    #apps{
+      display: flex;
+    }
+    .playstore>img{
+      height: 50px;
+      width: 120px;
+    }
+    #keepintouch{
+      display: flex;
+
+    }
+    .socialmedia>img{
+    
+      height: 15px;
+      width: 15px;
+      margin-right: 10px;
+    }
+    .org{
+      display: flex;
+    }
+    .image>img{
+      height: 70px;
+    }
+    #usefullinks,p{
+      margin: 2px;
+      padding: -10px;
+    }
+    .HEADBOLD{
+ 
+     margin-bottom: 20px;
+    }
+  
+    .oo{
+      padding: 0px;
+      margin: 0px;
+      height: 100%;
+      /* background-color: aquamarine; */
+
+      width: 80%;
+      /* background-color: #228B22; */
+      
+    }
+    .o{
+      height: 100%;
+      width: 80%;
+      /* background-color: aquamarine; */
+      margin-top: -50px;
+      margin-left: 40px;
+    }
+   .o>p{
+     cursor: pointer;
+   }
+   #contact:hover{
+
+    text-decoration: underline;
+    cursor: pointer;
+   }
+
+    #afterline {
+      font-family: sans-serif;
+      /* margin: 100px auto; */
+      /* color: #228B22; */
+      /* text-align: center; */
+      /* font-size: 30px; */
+      max-width: 600px;
+      position: relative;
+    }
+    #afterline:after {
+      content: "";
+      display:block;
+      width: 820px;
+      height: 1px;
+      background: #000000;
+      position:absolute;
+      left: 0;
+      bottom: 65%;
+      /* top: 70%; */
+      
+      margin-left:200px;
+      /* margin-left: -50%;
+      bottom: 50%; */
+    }
+ 
+    #theend{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 100px;
+      width: 80%;
+      padding-left: 40px;
+      /* margin-top: 100px; */
+    }
+
+    .mySlides {display:none;}
+
+    .mySlides{
+      height: 400px;
+      width: 100%;
+      /* style="max-width:100%" */
+    
+    }
