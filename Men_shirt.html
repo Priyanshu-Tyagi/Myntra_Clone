@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document_Shirt</title>
+    <link rel="stylesheet" href="shirt.css">
+    <!-- <link rel="stylesheet" href="navbar1.css"> -->
+    
+</head>
+<body>
+    <div class="nav">
+        <div style="width:10%; height:100%;">
+            <img style="padding-left: 35px;" src="https://constant.myntassets.com/web/assets/img/icon.5d108c858a0db793700f0be5d3ad1e120a01a500_2021.png"/>
+        </div>
+        <div style="width:43%; height:100%;font-size: 20px ;margin-left: 10px; display: flex;justify-content: space-around;" >
+            <h6><a href="www.google.com">MEN</a></h6>
+            <h6>WOMEN</h6>
+            <h6>KIDS</h6>
+            <h6>HOME & LEAVING</h6>
+            <h6>BEUATY</h6>
+            <h6>STUDIO<sup>  NEW</sup></h6>
+            
+            <!-- <p style="font-size: 12px; font-weight: 700 ;margin-left: -38px; color: red;margin-top: 25px;">New</p> -->
+        </div>
+        <div style="width: 35%;height: 100%; margin-left:10px;;
+        display: flex;align-items: center;
+        justify-content: center;">
+        <input style="width:75%;padding-right: 20px;border: 0px; height: 30px;
+        border: 1px solid gray;" 
+        type="text"  placeholder="Search for products,brands and more">
+        </div>
+        <div style="width: 20%;height: 100%;display: flex;
+        justify-content: space-evenly;align-items: center;">
+                    <div style="width: 15%;height: 55%;">
+                            <div style="width: 100%;height: 60%;">
+                                <img style="width: 60%; padding-left: 5px;" src="https://cdn-icons-png.flaticon.com/128/1077/1077035.png" alt="">
+                            </div>
+                            <p style="margin-top: -4px; font-size: 14px;font-weight: 600;">Profile</p>
+                    </div>
+                    <div style="width: 15%;height: 55%;">
+                        <div style="width: 100%;height: 60%;">
+                            <img style="width: 60%; padding-left: 5px;" src="https://cdn-icons-png.flaticon.com/128/1077/1077035.png" alt="">
+                        </div>
+                        <p style="margin-top: -4px; font-size: 14px;font-weight: 600;">Wishlist</p>
+                    </div>
+                    <div style="width: 15%;height: 55%;">
+                        <div style="width: 100%;height: 60%;">
+                            <img style="width: 60%; padding-left: 5px;" src="https://cdn-icons-png.flaticon.com/512/3144/3144456.png" alt="">
+                        </div>
+                        <p style="margin-top: -4px; font-size: 14px;font-weight: 600; margin-left: 5px;">Bag</p>
+                    </div>
+            
+        </div>
+
+
+
+    </div>
+
+        <div id="upper_part">
+            <p  id="first_line" " ><a id="home_text" href="">Home / <span>Clothing /</span> </a> <b>Shirts For Men & Women</b> </p>
+            <p id="second line"><b>Shirts For Men & Women</b> <span>-152364 Items</span></p>
+            <div class="custom-select" style="width: 100%;">
+                <div id="innerdiv">
+                    <div id="filterdiv">
+                        <h4>FILTER</h4>
+                        <p style="color: green; cursor: pointer;" id="clear">Clear All</p>
+                    </div>
+                    <div id="cleardiv">
+                        <select name="Add-Ons" id="">
+                            <option value="">Add-Ons</option>
+                           
+                        </select>
+                        <select name="" id="">
+                            <option value="">Better Cotton Initiative</option>
+                        </select>
+                        <select name="" id="">
+                            <option value="">Bundels</option>
+                        </select>
+                        <select name="" id="">
+                            <option value="">Charecter</option>
+                        </select>
+                        <select name="" id="">
+                            <option value="">Collar</option>
+                        </select>
+                        <select name="" id="">
+                            <option value="">Country Of Origin</option>
+                        </select>
+                        <select name="" id="brandSelect" onchange="filterFun()">
+                            <option value="Brand Name">Brand Name</option>
+                            <option value="Louis Philippe">Louis Philippe</option>
+                            <option value="Mufti">Mufti</option>
+                            <option value="Nautica">Nautica</option>
+                            <option value="HIGHLANDER">HIGHLANDER</option>
+                            <option value="Roadster">Roadster</option>
+                        </select>
+                    </div>
+                </div>
+                <select id="sortprice" onchange="handlepricesort()">
+                    
+                    <option class="opt" value="none">Sort:Recommended</option>
+                    <option class="opt" value="HTL">price:High To Low</option>
+                    <option class="opt" value="LTH">price:Low To High</option>
+                   
+                </select>
+                
+            </div>
+          
+        </div>
+
+        <div id="mainbox">
+            <div id="filterbox">
+                <div style="margin-top: 15px;padding-top: 10px; padding-bottom: 10px;">
+                    <input type="radio" name="" style="margin-left: 20px;">
+                    <label for="" class="radio">Men</label>
+                    <br>
+                    <input type="radio" name="" style="margin-left: 20px;">
+                    <label for="" class="radio">Women</label>
+                    <br>
+                    <input type="radio" name="" style="margin-left: 20px;">
+                    <label for="" class="radio">Boys</label>
+                    <br>
+                    <input type="radio" name="" style="margin-left: 20px;">
+                    <label for="" class="radio">Girls</label>
+                    
+                </div>
+                <div>
+                    <div style="width: 200px; font-weight: bold;padding-top: 10px;padding-bottom: 10px; margin-left: 20px;">BRAND</div>
+                    <input type="checkbox" name="Roadster" class="inp" id="road">
+                    <label for="road" class="check_color"> Roadster(1254)</label>
+                    <br>
+                    <input type="checkbox" name=""  class="inp" id="spy" >
+                    <label for="" class="check_color"> SPYKAR(2458)</label>
+                    <br>
+                    <input type="checkbox" name="" class="inp">
+                    <label for="" class="check_color">Mufti(845)</label>
+                    <br>
+                    <input type="checkbox" name="" class="inp" >
+                    <label for="" class="check_color">HIGHLANDER(2362)</label>
+                    <br>
+                    <input type="checkbox" name="" class="inp">
+                    <label for="" class="check_color">Louis Philippe(1633)</label>
+                    <br>
+                    <input type="checkbox" name="" class="inp">
+                    <label for="" class="check_color">Allen Solly(1405)</label>
+                    <br>
+                    <input type="checkbox" name="" class="inp"> 
+                    <label for="" class="check_color">Van Heusen(1210)</label>
+                    <br>
+                    <input type="checkbox" name="" class="inp">
+                    <label for="" class="check_color">Louis Philippe Sport(1435)</label>
+                    <div id="more">+124 <span>more</span></div>
+                </div>
+                <div>
+                    <div style="width: 200px; font-weight: bold;padding-top: 10px;padding-bottom: 10px; margin-left: 20px;">PRICE</div>
+                    <input type="checkbox" name="" class="inp">
+                    <label for="" class="check_color">Rs. 323 to Rs. 1500 <span style="color: #94969f; margin-left: 4px;font-size: 11px;">(12402)</span></label>
+                    <br>
+                    <input type="checkbox" name="" class="inp">
+                    <label for="" class="check_color">Rs. 1500 to Rs. 2500 <span style="color: #94969f; margin-left: 4px;font-size: 11px;"">(2456)</span></label>
+                    <br>
+                    <input type="checkbox" name=""  class="inp">
+                    <label for="" class="check_color">Rs. 2500 to Rs. 4500 <span style="color: #94969f; margin-left: 4px;font-size: 11px;">(1245)</span></label>
+                    <br>
+                    <input type="checkbox" name="" class="inp">
+                    <label for="" class="check_color">Rs. 4500 to Rs. 7000 <span style="color: #94969f; margin-left: 4px;font-size: 11px;">(1145)</span></label>
+                    <br>
+                    <input type="checkbox" name=""class="inp">
+                    <label for="" class="check_color">Rs. 7000 to Rs.9000<span style="color: #94969f; margin-left: 4px;font-size: 11px;">(224)</span></label>
+                    <br>
+                    <input type="checkbox" name=""class="inp">
+                    <label for="" class="check_color">Rs.9000 to Rs. 10500 <span style="color: #94969f; margin-left: 4px;font-size: 11px;">(42)</span></label>
+                    <div id="more">+36 <span>more</span></div>
+                </div>
+                <div>
+                    <div style="width: 200px; font-weight: bold; padding-top: 10px;padding-bottom: 10px; margin-left: 20px;">COLOR</div>
+                    <div id="check">
+                        <input type="checkbox" name="" id="" style="margin-left: 20px;">
+                        <div style="background-color: blue;"></div>
+                        <span style="margin-left: 5px;font-size: 14px;">Blue</span>
+                    </div>
+                    <div id="check">
+                        <input type="checkbox" name="" id="" style="margin-left: 20px;">
+                        <div style="background-color: white;  height: 14px; width: 14px;
+                         border: 1px solid pink;"></div>
+                        <span style="margin-left: 5px; font-size: 14px;">White</span>
+                    </div>
+                    <div id="check">
+                        <input type="checkbox" name="" id="" style="margin-left: 20px;">
+                        <div style="background-color: navy;"></div>
+                        <span style="margin-left: 5px;font-size: 14px;">Navyblue</span>
+                    </div>
+                    <div id="check">
+                        <input type="checkbox" name="" id="" style="margin-left: 20px;">
+                        <div style="background-color:black ;"></div>
+                        <span style="margin-left: 5px;font-size: 14px;">Black</span>
+                    </div>
+                    <div id="check">
+                        <input type="checkbox" name="" id="" style="margin-left: 20px;">
+                        <div style="background-color:green ;"></div>
+                        <span style="margin-left: 5px;font-size: 14px;">Green</span>
+                    </div>
+                    <div id="check">
+                        <input type="checkbox" name="" id="" style="margin-left: 20px;">
+                        <div style="background-color:gray ;"></div>
+                        <span style="margin-left: 5px;font-size: 14px;">Gray</span>
+                    </div><div id="check">
+                        <input type="checkbox" name="" id="" style="margin-left: 20px;">
+                        <div style="background-color:pink ;"></div>
+                        <span style="margin-left: 5px;font-size: 14px;">Pink</span>
+                    </div>
+                    <div id="more">+16 <span>more</span></div>
+                </div>
+            </div>
+            <div id="imgbox"></div>
+        </div>
+        <div id="foot">
+            <div style="width: 60%;height:100%; margin:auto;display: flex;">
+                <div style="width: 20%;height:100%; padding-top: 10px; font-size: 14px;color: #94969f;"id="page ">page 1 of 1020</div>
+                <div id="divbot" style="width: 65%;height:100%;">
+                <button>1</button><button id="bot2">2</button><button>3</button><button>4</button><button>5</button><button>6</button><button>7</button>
+            </div>
+            <button id="next">Next ></button>
+            </div>
+            
+        </div>
+       <div id="description">
+           <div style="width: 60%;margin-top: 20px;">
+                    <h4 style="text-align: center; margin-bottom: 20px;">BUY SHIRTS FOR MEN & WOMEN</h4>
+                    <h5 style="margin-bottom: -5px; margin-left: 20px;color:#696b79;font-weight: 500px;font-size: 14px;">FABULOUS SHIRTS FOR THE FASHION-FORWARD</h5>
+                    <p style=" margin-left: 20px;text-align: justify;margin-bottom: 20px;">Gone are the days when shirts were considered apt only for a formal environment.
+                         Aware of this change in fashion choices, Myntra brings you
+                         a line of smart shirts online for fashion-forward women, men, boys and
+                         girls. Be it regular work wear,
+                         a boardroom presentation, a semi-formal party, a dinner date or a trip to your favourite
+                         holiday destinations; Myntra has the perfect option for you. At Myntra, 
+                         you are offered a wide variety of shirts with price options that are
+                         quite affordable. While you are checking out our collection of shirts
+                         online, you can also look for a sharp pair of trousers, jeans and
+                         suits to stock up on ensemble options in one go.
+                         THE SHIRTS ONLINE SHOPPING GUIDE</p>
+                <h5 style="margin-bottom: -5px; margin-left: 20px;color:#696b79;font-weight: 500px;font-size: 14px;">THE SHIRTS ONLINE SHOPPING GUIDE</h5>
+                <p style=" margin-left: 20px;text-align: justify;margin-bottom: 20px;">At Myntra, our exclusive collection of shirt brands features a wide number of patterns,
+                   colours, cuts and styles. In terms of fabrics, our collection of shirts online include 
+                   great options in cotton, poly-cotton, crepe, georgette, linen, chiffon, polyester, 
+                   satin, silk and more. You can even buy shirts in the kind of fit that you would like 
+                   such as regular, boxy, skinny, tailored or slim-fit versions.
+                   <br><br>
+
+                   We now progress towards the most important stage of your shirt shopping journey - the selection 
+                   of right patterns that suit you the most. Checks, solids and stripes are the most popular options,
+                   with men and women opting for one of them as their oft-repeated personal style. You can figure 
+                   out yours as well. You can also look at faded, printed and self-design shirts online which offer you
+                   many popular ensemble alternatives.
+                   <br><br>
+                    
+                    If you thought that the popular button-down collars were the only options for your neckline, think again.
+                    Browse through Myntra’s range of Peter Pan collars, cutaway and wingtip collars which offer smart 
+                    alternatives. The mandarin collar shirts with their eastern appeal are versatile enough to be worn for 
+                    both formal and casual occasions. For a preppy look, opt for hooded collars with drawstrings. 
+                    Club collars, as the name suggests, are great for creating a standout image at parties. Or you can simply 
+                    go collarless with our collection of cool casual shirts online.</p>   
+                    
+                    <h5 style="margin-bottom: -5px; margin-left: 20px;color: #696b79;font-weight: 500px;font-size: 14px;">UNLIMITED STYLE OPTIONS WITH SMART SHIRTS ONLINE</h5>
+                    <p style=" margin-left: 20px;text-align: justify;margin-bottom: 20px;">
+                        Shirts are quite versatile when worn the right way. Here are some style suggestions on how to wear shirts
+                         for different occasions: <br><br>
+
+                        Plaid or checked shirts for men can be worn in a number of ways to achieve both casual and formal
+                        looks. Simply pair them up with jeans and loafers for a summer outing. Or try a laid-back winter 
+                        look; choose a layered option with T-shirts and jackets. A pair of light blue or faded jeans and 
+                        trainers, along with a messenger bag offer, give your look a neat finish.<br><br>
+
+                        Denim shirts for men are classics which shall always remain trendy. Make your own casual statement
+                        with a long denim shirt with folded up sleeves, along with dark coloured jeans. Pair the outfit 
+                        with dark boots and top it off with a skull cap. You can even wear a cardigan on top of your denim
+                        shirt for chilly weather.<br><br>
+
+                        Ladies out there, confused on how to get ready in a snap for an impromptu outing with friends? 
+                        Choose your favourite shirt and wear them untucked with a pair of skinny jeans. Wear round-toe 
+                        flats and jazz it up with chunky bangles or bracelets. Carry your valuables in your favourite 
+                        tote and you are done. This outfit provides you with the best of both worlds when it comes to 
+                        comfort and style.<br><br>
+
+                        Take your pick from some of the stylish formal shirt brands to make a smart statement at work. 
+                        One style option you can opt for is mandarin neck collars that are paired with your favourite 
+                        pencil skirt and strappy block heels. Or opt for a bright solid shirt and wear it with dark 
+                        trousers and pumps. Women can also go for matte-finish makeup for a sharp look. To give your 
+                        formal look a sharp finish, choose studs from Myntra’s stunning collection of earrings online.<br><br>
+
+                        Myntra’s collection of shirts online also include cute options for kids. You can select any casual,
+                        formal or party shirts for your little boys and girls. Go all out with their style preferences and 
+                        pick their favourite from different varieties of prints, checks, stripes and patterns.</p>
+            </div>
+        <div style="width: 30%;margin-left: 30px;margin-top: 20px;" >
+            <h5 style="text-align: center; margin-bottom: 20px; font-size: 14px;">SHIRTS FOR MEN & WOMEN PRICE LIST</h5>
+
+            <div style=" width:90%;margin: auto; display: flex; justify-content: space-between;font-size: large;">
+                <h6>Shirts for Men & Women</h6>
+                <h6>Price(Rs.)</h6>
+            </div>
+            <div style=" width:90%;margin: auto; display: flex; justify-content: space-between;font-size: large;">
+                <p style="font-size: 12px;
+                margin-top: -10px;cursor: pointer;">Roadster men gray & black checked casual printed Sustainable shirt</p>
+                <p style="font-size: 12px;
+                margin-top: -10px;cursor: pointer;">Rs.999</p>
+            </div>
+            <div style=" width:90%;margin: auto; display: flex; justify-content: space-between;font-size: large;">
+                <p style="font-size: 12px;
+                margin-top: -5px; margin-bottom: 10px;cursor: pointer;">Denis Lingo Men Pink Slim Fit Casual Shirt</p>
+                <p style="font-size: 12px;
+                margin-top: -5px;cursor: pointer;">Rs.554</p>
+            </div>
+            <div style=" width:90%;margin: auto; display: flex; justify-content: space-between;font-size: large;">
+                <p style="font-size: 12px;
+                margin-top: -5px;cursor: pointer;">HIGHLANDER Men White Slim Fit Casual Shirt</p>
+                <p style="font-size: 12px;
+                margin-top: -5px;cursor: pointer;">Rs.749</p>
+            </div>
+            <div style=" width:90%;margin: auto; display: flex; justify-content: space-between;font-size: large;">
+                <p style="font-size: 12px;
+                margin-top: -5px;cursor: pointer;">Roadster Men Meroon &Navy Blue Slim Fit Printed Shirt </p>
+                <p style="font-size: 12px;
+                margin-top: -5px;cursor: pointer;">Rs.349</p>
+            </div>
+            <div style=" width:90%;margin: auto; display: flex; justify-content: space-between;font-size: large;">
+                <p style="font-size: 12px;
+                margin-top: -5px;cursor: pointer;">Roadster Men Meroon &Navy Blue Slim Fit Pure Cotton Sustainable Shirt</p>
+                <p style="font-size: 12px;
+                margin-top: -5px;
+                cursor: pointer;">Rs.599</p>
+            </div>
+            <div style="font-style: italic;padding: 10px 0 0 6px;font-size: 12px;
+            color: #535766;text-align: justify;margin-left: 10px;">Data last updated on 07/05/2022</div>
+        </div>
+       </div>
+</body>
+</html>
+
+
+
+
+<script src="shirt.js"></script>
