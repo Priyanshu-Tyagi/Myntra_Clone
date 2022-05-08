@@ -169,3 +169,8 @@ img{
 img:hover{
     background-color: aqua;
 }
+#span{
+    text-decoration: line-through;
+    color:grey;
+    margin-left: 10px;
+}
