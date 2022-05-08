@@ -40,11 +40,18 @@ let imgarr=[{img:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/ima
 
 }]
 
-document.querySelector("#bag").addEventListener("click",myfunction)
+document.querySelector("#wish").addEventListener("click",myfunction)
 
 function myfunction(imgarr){
-    localStorage.setItem("bag",JSON.stringify(imgarr))
+    
+    var name=localStorage.setItem("wishlist",JSON.stringify(imgarr))
 
-    // console.log(arr)
+    
+    window.location.reload();
 }
+myfunction(imgarr)
+// console.log(imgarr)
+
+
+
 
