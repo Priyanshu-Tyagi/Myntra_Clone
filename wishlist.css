@@ -1,0 +1,195 @@
+#wishbody{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    margin-left: 50px;
+    margin-top:40px;
+    /* border: 1px solid red; */
+}
+#wishbody>div{
+    width:80%;
+    /* border: 1px solid black; */
+    position: relative;
+    text-align: center;
+}
+#wishbody>div>h4{
+    margin-top: -8px;
+    font-weight: bold;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Whitney,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#wishbody>div>p{
+    color: #282c3f;
+    font-family: Whitney,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+
+.appimg{
+    width:100%;
+   
+    /* border: 1px solid green; */
+}
+.bagmove{
+    border: 1px solid rgb(238, 233, 233);
+    text-align: center;
+    font-family: Whitney,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    color: #ff3e6c;
+    font-weight: 500;
+    background-color: transparent;
+    font-size: 14px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-top: 15px;
+}
+.deletebutton{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #282c3f;
+    border-radius: 50%;
+    border: 0px;
+}
+#details{
+    display: flex;
+    justify-content: space-around;
+    background: #FAFBFC;
+    margin-top: 100px;
+}
+
+#part1p{
+    display: inline;
+}
+#part1button{
+    background-color: red;
+    color: white;
+    font-weight: 500;
+    margin: 0 0 0 5px;
+    font-size: 12px;
+    font-family: Whitney,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    padding: 0 5px;
+    border-radius: 10px;
+    border: 0px;
+
+}
+.playstore{
+    width: 300px;
+    display: flex;
+    
+}
+.playstore>div{
+    margin-right: 15px;
+}
+.playstore>img{
+    width: 100%;
+}
+#social{
+    display: flex;
+}
+#social>div{
+    width: 20px;
+    height: 22px;
+    margin-right: 20px;
+}
+#social>div:nth-child(4){
+    width: 20px;
+    height: 22px;
+    margin-right: 20px;
+    
+}
+#social>div:nth-child(3){
+    width: 28px;
+    height: 22px;
+}
+#social>div>img{
+    width: 100%;
+    height: 100%;
+}
+#part4>div{
+   margin-top: 20px;
+   
+}
+#part4_1>div>h4{
+    display: inline;
+    font-family: Whitney,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    margin-top: -5px;
+}
+#part4_1>div>p{
+    display: inline;
+    font-family: Whitney,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#part4_1{
+    display: flex;
+   
+    justify-content: space-around;
+}
+#part4_1>div+div{
+    
+    width: 250px;
+    margin-left: 7px;
+}
+
+#part4_1>div>img{
+    width: 48px;
+    height: 49px;
+}
+
+#part4_2>div>h4{
+    display: inline;
+    font-family: Whitney,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    margin-top: -5px;
+}
+#part4_2>div>p{
+    display: inline;
+    font-family: Whitney,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#part4_2{
+    display: flex;
+    
+    justify-content: space-around;
+}
+
+#part4_2>div+div{
+    
+    width: 250px;
+    margin-left: 7px;
+}
+#part4_2>div>img{
+    width: 48px;
+    height: 49px;
+}
+.discription{
+   margin-bottom: 30px;
+   font-weight: 500;
+    color: #282c3f;
+}
+.discription~p{
+   color: gray;
+   font-family: Whitney,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#details2heading+div{
+   color: gray;
+   cursor: pointer;
+   font-family: Whitney,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+width: 80%;
+
+}
+#details2{
+  background-color:  #FAFBFC;
+  margin-left: 50px;
+}
+#bottomend{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+#bottomend>div>p{
+  display: inline-block;
+
+}
+#bottomend>div>h4{
+  display: inline;
+color: blue;
+}
