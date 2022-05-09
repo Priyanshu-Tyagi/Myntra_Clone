@@ -2,9 +2,13 @@
     font-family: Whitney,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
     -webkit-font-smoothing: antialiased;
 }
+body{
+    border: 0px;
+    margin: 0px;
+}
 .nav{
    
-    height: 80px;
+    height: 70px;
     width: 100%;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
     display: flex;
@@ -12,6 +16,20 @@
 a{
     text-decoration: none;
     color: black;
+}
+#search{
+    height: 60%;
+    width: 85%;
+    padding-left: 5px;
+    margin-left:10px; 
+    border:1px solid gray;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+}
+#search_inp{
+    border: none;
 }
 sup{
     font-size: 9px;
@@ -22,6 +40,7 @@ sup{
     height: 130px;
     width: 95%;
     margin-top: 10px;
+    margin-left: 10px;
 }
 #home_text{
     color: green;
@@ -48,6 +67,10 @@ span{
 .opt{
     padding: 10px 30px 10px 30px;
     
+}
+#clear{
+    color: rgb(5, 100, 5);
+     cursor: pointer;
 }
 #innerdiv{
     height: 75%;
@@ -93,6 +116,14 @@ span{
 #filterbox{
     height:auto;
     width: 20%;
+    margin-left: 10px;
+}
+.filterinp{
+    margin-left: 20px;
+}
+.color_circle{
+    margin-left: 5px;
+    font-size: 14px;
 }
 #imgbox{
   
@@ -169,12 +200,35 @@ label>div{
     background-color: blue;
     border-radius: 10px;
 }
-#check{
+#gender_title{
+    margin-top: 15px;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+}
+#color_title,
+#price_title,
+#brand_title{
+    width: 200px; 
+    font-weight: bold; 
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    margin-left: 20px;
+}
+.product_no{
+    color: #94969f; 
+    margin-left: 4px;
+    font-size: 11px;
+}
+.color_product_no{
+    margin-top: 5px;
+}
+
+.check{
     width: 90%;
     display: flex;
     margin-bottom:6px;
 }
-#check>div{
+.check>div{
     height: 15px;
     width: 15px;
     border-radius: 15px;
@@ -204,15 +258,30 @@ label>div{
     width: 100%;
     display: flex;
 }
+#foot1{
+    width: 60%;
+    height:100%; 
+    margin:auto;
+    display: flex; 
+}
+#foot2{
+    width: 20%;
+    height:100%;
+     padding-top: 10px; 
+     font-size: 14px;
+     color: #94969f;
+}
 #divbot{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 65%;
+    height:100%;
     /* justify-content: space-around; */
 }
 #divbot>button{
     margin-right: 30px;
-    padding: 5px 4px 5px 4px;
+    padding: 5px 6px 5px 6px;
     font-weight: bold;
     border: 0px;
     border-radius: 2px;

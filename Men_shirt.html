@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document_Shirt</title>
+    <script src="https://kit.fontawesome.com/45cd62317f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="Men_shirt.css">
     <!-- <link rel="stylesheet" href="navbar1.css"> -->
     
@@ -12,7 +13,7 @@
 <body>
     <div class="nav">
         <div style="width:10%; height:100%;">
-            <img style="padding-left: 35px;" src="https://constant.myntassets.com/web/assets/img/icon.5d108c858a0db793700f0be5d3ad1e120a01a500_2021.png"/>
+            <img style=" width:50%; padding-left: 35px;" src="https://constant.myntassets.com/web/assets/img/icon.5d108c858a0db793700f0be5d3ad1e120a01a500_2021.png"/>
         </div>
         <div style="width:43%; height:100%;font-size: 20px ;margin-left: 10px; display: flex;justify-content: space-around;" >
             <h6><a href="www.google.com">MEN</a></h6>
@@ -24,18 +25,21 @@
             
             <!-- <p style="font-size: 12px; font-weight: 700 ;margin-left: -38px; color: red;margin-top: 25px;">New</p> -->
         </div>
-        <div style="width: 35%;height: 100%; margin-left:10px;;
-        display: flex;align-items: center;
-        justify-content: center;">
-        <input style="width:75%;padding-right: 20px;border: 0px; height: 30px;
-        border: 1px solid gray;" 
-        type="text"  placeholder="Search for products,brands and more">
+        <div style="width: 35%;height: 100%; margin-left:10px;display: flex;align-items: center;justify-content: center;">
+            <div id="search">
+                <span  style="width: 100%;" class="fa fa-search form-control-feedback"> <input id="search_inp" style="width:75%;padding-right: 20px;border: 0px; height: 30px;
+                    border: 0px;" 
+                      placeholder="Search for products,brands and more"> </span>
+                
+            </div>
+        
         </div>
         <div style="width: 20%;height: 100%;display: flex;
         justify-content: space-evenly;align-items: center;">
                     <div style="width: 15%;height: 55%;">
                             <div style="width: 100%;height: 60%;">
-                                <img style="width: 60%; padding-left: 5px;" src="https://cdn-icons-png.flaticon.com/128/1077/1077035.png" alt="">
+                                <!-- <img  src="https://cdn-icons-png.flaticon.com/128/1077/1077035.png" alt=""> -->
+                                <i  style="width: 60%; padding-left: 5px;" class="fas fa-user"></i>
                             </div>
                             <p style="margin-top: -4px; font-size: 14px;font-weight: 600;">Profile</p>
                     </div>
@@ -65,7 +69,7 @@
                 <div id="innerdiv">
                     <div id="filterdiv">
                         <h4>FILTER</h4>
-                        <p style="color: green; cursor: pointer;" id="clear">Clear All</p>
+                        <p id="clear">Clear All</p>
                     </div>
                     <div id="cleardiv">
                         <select name="Add-Ons" id="">
@@ -111,104 +115,112 @@
 
         <div id="mainbox">
             <div id="filterbox">
-                <div style="margin-top: 15px;padding-top: 10px; padding-bottom: 10px;">
-                    <input type="radio" name="" style="margin-left: 20px;">
+                <div id="gender_title">
+                    <input type="radio" name="" class="filterinp">
                     <label for="" class="radio">Men</label>
                     <br>
-                    <input type="radio" name="" style="margin-left: 20px;">
+                    <input type="radio" name=""  class="filterinp">
                     <label for="" class="radio">Women</label>
                     <br>
-                    <input type="radio" name="" style="margin-left: 20px;">
+                    <input type="radio" name=""  class="filterinp">
                     <label for="" class="radio">Boys</label>
                     <br>
-                    <input type="radio" name="" style="margin-left: 20px;">
+                    <input type="radio" name=""  class="filterinp">
                     <label for="" class="radio">Girls</label>
                     
                 </div>
                 <div>
-                    <div style="width: 200px; font-weight: bold;padding-top: 10px;padding-bottom: 10px; margin-left: 20px;">BRAND</div>
+                    <div id="brand_title">BRAND</div>
                     <input type="checkbox" name="Roadster" class="inp" id="road">
-                    <label for="road" class="check_color"> Roadster(1254)</label>
+                    <label for="road" class="check_color"> Roadster <span class="product_no" >(1254)</span></label>
                     <br>
                     <input type="checkbox" name=""  class="inp" id="spy" >
-                    <label for="" class="check_color"> SPYKAR(2458)</label>
+                    <label for="" class="check_color"> SPYKAR <span class="product_no" >(2458)</span></label>
                     <br>
                     <input type="checkbox" name="" class="inp">
-                    <label for="" class="check_color">Mufti(845)</label>
+                    <label for="" class="check_color">Mufti <span class="product_no" >(845)</span></label>
                     <br>
                     <input type="checkbox" name="" class="inp" >
-                    <label for="" class="check_color">HIGHLANDER(2362)</label>
+                    <label for="" class="check_color">HIGHLANDER <span class="product_no" >(2364)</span></label>
                     <br>
                     <input type="checkbox" name="" class="inp">
-                    <label for="" class="check_color">Louis Philippe(1633)</label>
+                    <label for="" class="check_color">Louis Philippe <span class="product_no" >(1694)</span></label>
                     <br>
                     <input type="checkbox" name="" class="inp">
-                    <label for="" class="check_color">Allen Solly(1405)</label>
+                    <label for="" class="check_color">Allen Solly <span class="product_no" >(1405)</span></label>
                     <br>
                     <input type="checkbox" name="" class="inp"> 
-                    <label for="" class="check_color">Van Heusen(1210)</label>
+                    <label for="" class="check_color">Van Heusen <span class="product_no" >(1240)</span></label>
                     <br>
                     <input type="checkbox" name="" class="inp">
-                    <label for="" class="check_color">Louis Philippe Sport(1435)</label>
+                    <label for="" class="check_color">Louis Philippe Sport<span class="product_no" >(1435)</span></label>
                     <div id="more">+124 <span>more</span></div>
                 </div>
                 <div>
-                    <div style="width: 200px; font-weight: bold;padding-top: 10px;padding-bottom: 10px; margin-left: 20px;">PRICE</div>
+                    <div  id="price_title" >PRICE</div>
                     <input type="checkbox" name="" class="inp">
-                    <label for="" class="check_color">Rs. 323 to Rs. 1500 <span style="color: #94969f; margin-left: 4px;font-size: 11px;">(12402)</span></label>
+                    <label for="" class="check_color">Rs. 323 to Rs. 1500 <span class="product_no" >(12402)</span></label>
                     <br>
                     <input type="checkbox" name="" class="inp">
-                    <label for="" class="check_color">Rs. 1500 to Rs. 2500 <span style="color: #94969f; margin-left: 4px;font-size: 11px;"">(2456)</span></label>
+                    <label for="" class="check_color">Rs. 1500 to Rs. 2500 <span class="product_no">(2456)</span></label>
                     <br>
                     <input type="checkbox" name=""  class="inp">
-                    <label for="" class="check_color">Rs. 2500 to Rs. 4500 <span style="color: #94969f; margin-left: 4px;font-size: 11px;">(1245)</span></label>
+                    <label for="" class="check_color">Rs. 2500 to Rs. 4500 <span class="product_no">(1245)</span></label>
                     <br>
                     <input type="checkbox" name="" class="inp">
-                    <label for="" class="check_color">Rs. 4500 to Rs. 7000 <span style="color: #94969f; margin-left: 4px;font-size: 11px;">(1145)</span></label>
+                    <label for="" class="check_color">Rs. 4500 to Rs. 7000 <span class="product_no">(1145)</span></label>
                     <br>
                     <input type="checkbox" name=""class="inp">
-                    <label for="" class="check_color">Rs. 7000 to Rs.9000<span style="color: #94969f; margin-left: 4px;font-size: 11px;">(224)</span></label>
+                    <label for="" class="check_color">Rs. 7000 to Rs.9000 <span class="product_no">(224)</span></label>
                     <br>
                     <input type="checkbox" name=""class="inp">
-                    <label for="" class="check_color">Rs.9000 to Rs. 10500 <span style="color: #94969f; margin-left: 4px;font-size: 11px;">(42)</span></label>
+                    <label for="" class="check_color">Rs.9000 to Rs. 10500 <span class="product_no">(42)</span></label>
                     <div id="more">+36 <span>more</span></div>
                 </div>
                 <div>
-                    <div style="width: 200px; font-weight: bold; padding-top: 10px;padding-bottom: 10px; margin-left: 20px;">COLOR</div>
-                    <div id="check">
-                        <input type="checkbox" name="" id="" style="margin-left: 20px;">
+                    <div  id="color_title" >COLOR</div>
+                    <div class="check">
+                        <input type="checkbox" name="" id=""  class="filterinp"">
                         <div style="background-color: blue;"></div>
-                        <span style="margin-left: 5px;font-size: 14px;">Blue</span>
+                        <span class="color_circle">Blue</span>
+                        <span class="product_no , color_product_no" >(2458)</span>
                     </div>
-                    <div id="check">
-                        <input type="checkbox" name="" id="" style="margin-left: 20px;">
+                    <div class="check">
+                        <input type="checkbox" name="" id=""  class="filterinp">
                         <div style="background-color: white;  height: 14px; width: 14px;
                          border: 1px solid pink;"></div>
-                        <span style="margin-left: 5px; font-size: 14px;">White</span>
+                        <span class="color_circle">White</span>
+                        <span class="product_no , color_product_no" >(3450)</span>
                     </div>
-                    <div id="check">
-                        <input type="checkbox" name="" id="" style="margin-left: 20px;">
+                    <div class="check">
+                        <input type="checkbox" name="" id=""  class="filterinp">
                         <div style="background-color: navy;"></div>
-                        <span style="margin-left: 5px;font-size: 14px;">Navyblue</span>
+                        <span class="color_circle">Navyblue</span>
+                        <span  class="product_no , color_product_no" >(2858)</span>
                     </div>
-                    <div id="check">
-                        <input type="checkbox" name="" id="" style="margin-left: 20px;">
+                    <div class="check">
+                        <input type="checkbox" name="" id=""  class="filterinp">
                         <div style="background-color:black ;"></div>
-                        <span style="margin-left: 5px;font-size: 14px;">Black</span>
+                        <span class="color_circle">Black</span>
+                        <span class="product_no , color_product_no" >(3214)</span>
                     </div>
-                    <div id="check">
-                        <input type="checkbox" name="" id="" style="margin-left: 20px;">
+                    <div class="check">
+                        <input type="checkbox" name="" id=""  class="filterinp">
                         <div style="background-color:green ;"></div>
-                        <span style="margin-left: 5px;font-size: 14px;">Green</span>
+                        <span class="color_circle">Green</span>
+                        <span class="product_no , color_product_no" >(1245)</span>
                     </div>
-                    <div id="check">
-                        <input type="checkbox" name="" id="" style="margin-left: 20px;">
+                    <div class="check">
+                        <input type="checkbox" name="" id=""  class="filterinp">
                         <div style="background-color:gray ;"></div>
-                        <span style="margin-left: 5px;font-size: 14px;">Gray</span>
-                    </div><div id="check">
-                        <input type="checkbox" name="" id="" style="margin-left: 20px;">
+                        <span class="color_circle">Gray</span>
+                        <span class="product_no , color_product_no" >(584)</span>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox" name="" id="" class="filterinp">
                         <div style="background-color:pink ;"></div>
-                        <span style="margin-left: 5px;font-size: 14px;">Pink</span>
+                        <span  class="color_circle">Pink</span>
+                        <span class="product_no , color_product_no" >(1458)</span>
                     </div>
                     <div id="more">+16 <span>more</span></div>
                 </div>
@@ -216,10 +228,16 @@
             <div id="imgbox"></div>
         </div>
         <div id="foot">
-            <div style="width: 60%;height:100%; margin:auto;display: flex;">
-                <div style="width: 20%;height:100%; padding-top: 10px; font-size: 14px;color: #94969f;"id="page ">page 1 of 1020</div>
-                <div id="divbot" style="width: 65%;height:100%;">
-                <button>1</button><button id="bot2">2</button><button>3</button><button>4</button><button>5</button><button>6</button><button>7</button>
+            <div id="foot1">
+                <div id="foot2" >page 1 of 1020</div>
+                <div id="divbot">
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button>7</button>
             </div>
             <button id="next">Next ></button>
             </div>
@@ -293,7 +311,7 @@
                         formal or party shirts for your little boys and girls. Go all out with their style preferences and 
                         pick their favourite from different varieties of prints, checks, stripes and patterns.</p>
             </div>
-        <div style="width: 30%;margin-left: 30px;margin-top: 20px;" >
+            <div style="width: 30%;margin-left: 30px;margin-top: 20px;" >
             <h5 style="text-align: center; margin-bottom: 20px; font-size: 14px;">SHIRTS FOR MEN & WOMEN PRICE LIST</h5>
 
             <div style=" width:90%;margin: auto; display: flex; justify-content: space-between;font-size: large;">

@@ -255,6 +255,6 @@ displayData(shirtArr)
   }
 }
 
-
+// document.querySelector("#search_inp").addEventListener("click",)
 
 
