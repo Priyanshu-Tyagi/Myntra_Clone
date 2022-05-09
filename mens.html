@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/45cd62317f.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="homepage.css" /> -->
+    <link rel="stylesheet" href="./navbar.css" />
+    <link rel="stylesheet" href="./menspage.css"/>
+</head>
+<body>
+
+
+    <!-- navbar -->
+    <div id="nav">
+        <a href="./index.html"> <div id="myntralogo">
+          <img
+            src="https://constant.myntassets.com/web/assets/img/icon.5d108c858a0db793700f0be5d3ad1e120a01a500_2021.png"
+          />
+        </div></a>
+  
+        <!-- <div class="dropdown">
+            <button class="dropbtn">Dropdown</button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div> -->
+         
+        <div class="dropdown">
+          <div><a class="text" href="#">MEN</a></div>
+  
+          <div class="dropdown-content" id="left">
+            <div class="maindrop">
+              <div class="drop1">
+                <div class="topwers">
+                  <h4>Topwers</h4>
+                  <p>T-shirts</p>
+                  <p><a onclick="function openmen()" href="./Men_shirt.html">Casuals Shirts</a></p>
+                  <p>Formal Shirts</p>
+                  <p>Sweatshirts</p>
+                  <p>Sweaters</p>
+                  <p>Jackets</p>
+                  <p>Blazers & Coats</p>
+                  <p>Suits</p>
+                  <p>Rain Jackets</p>
+                </div>
+                <hr>
+                <div class="festivewear">
+                  <h4>Indian & Festive Wear</h4>
+                  <p>Kurtas & Kurta Sets</p>
+                  <p>Sherwanis</p>
+                  <p>Nehru Jackets</p>
+                  <p>Dhotis</p>
+                </div>
+              </div>
+              <div class="drop2">
+                <div class="Bottomwear">
+                  <h4>Bottomwear</h4>
+                  <p>Jeans</p>
+                  <p>Casual Trousers</p>
+                  <p>Formal Trousers</p>
+                  <p>Shorts</p>
+                  <p>Track Pants & Joggers</p>
+                </div>
+                <hr>
+                <div class="innerwear">
+                  <h4>innerwear & Sleepwear</h4>
+                  <p>Briefs & Trunks</p>
+                  <p>Boxers</p>
+                  <p>Vests</p>
+                  <p>Sleepwear & Loungewear</p>
+                  <p>Thermals</p>
+                </div>
+                <div class="plusSize"></div>
+              </div>
+              <div class="drop1">
+                <div class="Footwear">
+                  <h4>Footwear</h4>
+                  <p>Casual Shoes</p>
+                  <p>Sports Shoes</p>
+                  <p>Formal Shoes</p>
+                  <p>Sneakers</p>
+                  <p>Sandals & Floaters</p>
+                  <p>Flip Flops</p>
+                  <p>Socks</p>
+                </div>
+                <hr>
+                <div class="factionwear">
+                  <h4>Personal Care & Grooming</h4>
+                  <h4>Sunglasses & Frames</h4>
+                  <h4>Watches</h4>
+                </div>
+              </div>
+              <div class="drop2">
+                <div class="Sportswear">
+                  <h4>Sports & Active Wear</h4>
+                  <p>Sports Shoes</p>
+                  <p>Sports Sandals</p>
+                  <p>Active T-Shirts</p>
+                  <p>Track Pants & Shorts</p>
+                  <p>Tracksuits</p>
+                  <p>Jackets & Sweatshirts</p>
+                  <p>Sports Accessories</p>
+                  <p>Swimwear</p>
+                </div>
+                <hr>
+                <div class="Gadgets">
+                  <h4>Gadgets</h4>
+                  <p>Smart Wearables</p>
+                  <p>Fitness Gadgets</p>
+                  <p>Headphones</p>
+                  <p>Speakers</p>
+                </div>
+              </div>
+             
+              <div class="drop1">
+                
+                <div class="factionaccessories">
+                  <h4>Faction Accessories</h4>
+                  <p>Wallets</p>
+                  <p>Belts</p>
+                  <p>Perfumes & Body Mists</p>
+                  <p>Trimmers</p>
+                  <p>Deodorants</p>
+                  <p>Ties,Cufflinks & Pockets Squares</p>
+                  <p>Accessory Gift Sets</p>
+                  <p>Caps & Hats</p>
+                  <p>Mufflers, Scarves & Gloves</p>
+                  <p>Phone Cases</p>
+                  <p>Rings & Wristwear</p>
+                  <p>Helmets</p>
+                </div>
+                <hr>
+                <div class="travelsacc">
+                  <h4>Bags & Backpacks</h4>
+                  <h4>Luggages & Trolleys</h4>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        <div class="dropdown">
+          <div><a class="text" href="#">WOMEN</a></div>
+  
+          <div class="dropdown-content"  id="left1" >
+            <div class="maindrop">
+              <div class="drop1">
+                <div class="topwers">
+                  <h4>Topwers</h4>
+                  <p>T-shirts</p>
+                  <p>Casuals Shirts</p>
+                  <p>Formal Shirts</p>
+                  <p>Sweatshirts</p>
+                  <p>Sweaters</p>
+                  <p>Jackets</p>
+                  <p>Blazers & Coats</p>
+                  <p>Suits</p>
+                  <p>Rain Jackets</p>
+                </div>
+                <hr>
+                <div class="festivewear">
+                  <h4>Indian & Festive Wear</h4>
+                  <p>Kurtas & Kurta Sets</p>
+                  <p>Sherwanis</p>
+                  <p>Nehru Jackets</p>
+                  <p>Dhotis</p>
+                </div>
+              </div>
+              <div class="drop2">
+                <div class="Bottomwear">
+                  <h4>Bottomwear</h4>
+                  <p>Jeans</p>
+                  <p>Casual Trousers</p>
+                  <p>Formal Trousers</p>
+                  <p>Shorts</p>
+                  <p>Track Pants & Joggers</p>
+                </div>
+                <hr>
+                <div class="innerwear">
+                  <h4>innerwear & Sleepwear</h4>
+                  <p>Briefs & Trunks</p>
+                  <p>Boxers</p>
+                  <p>Vests</p>
+                  <p>Sleepwear & Loungewear</p>
+                  <p>Thermals</p>
+                </div>
+                <div class="plusSize"></div>
+              </div>
+              <div class="drop1">
+                <div class="Footwear">
+                  <h4>Footwear</h4>
+                  <p>Casual Shoes</p>
+                  <p>Sports Shoes</p>
+                  <p>Formal Shoes</p>
+                  <p>Sneakers</p>
+                  <p>Sandals & Floaters</p>
+                  <p>Flip Flops</p>
+                  <p>Socks</p>
+                </div>
+                <hr>
+                <div class="factionwear">
+                  <h4>Personal Care & Grooming</h4>
+                  <h4>Sunglasses & Frames</h4>
+                  <h4>Watches</h4>
+                </div>
+              </div>
+              <div class="drop2">
+                <div class="Sportswear">
+                  <h4>Sports & Active Wear</h4>
+                  <p>Sports Shoes</p>
+                  <p>Sports Sandals</p>
+                  <p>Active T-Shirts</p>
+                  <p>Track Pants & Shorts</p>
+                  <p>Tracksuits</p>
+                  <p>Jackets & Sweatshirts</p>
+                  <p>Sports Accessories</p>
+                  <p>Swimwear</p>
+                </div>
+                <hr>
+                <div class="Gadgets">
+                  <h4>Gadgets</h4>
+                  <p>Smart Wearables</p>
+                  <p>Fitness Gadgets</p>
+                  <p>Headphones</p>
+                  <p>Speakers</p>
+                </div>
+              </div>
+             
+              <div class="drop1">
+                
+                <div class="factionaccessories">
+                  <h4>Faction Accessories</h4>
+                  <p>Wallets</p>
+                  <p>Belts</p>
+                  <p>Perfumes & Body Mists</p>
+                  <p>Trimmers</p>
+                  <p>Deodorants</p>
+                  <p>Ties,Cufflinks & Pockets Squares</p>
+                  <p>Accessory Gift Sets</p>
+                  <p>Caps & Hats</p>
+                  <p>Mufflers, Scarves & Gloves</p>
+                  <p>Phone Cases</p>
+                  <p>Rings & Wristwear</p>
+                  <p>Helmets</p>
+                </div>
+                <hr>
+                <div class="travelsacc">
+                  <h4>Bags & Backpacks</h4>
+                  <h4>Luggages & Trolleys</h4>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        <div class="dropdown">
+          <div><a class="text" href="#">KIDS</a></div>
+  
+          <div class="dropdown-content" id="left2">
+            <div class="maindrop">
+              <div class="drop1">
+                <div class="topwers">
+                  <h4>Topwers</h4>
+                  <p>T-shirts</p>
+                  <p>Casuals Shirts</p>
+                  <p>Formal Shirts</p>
+                  <p>Sweatshirts</p>
+                  <p>Sweaters</p>
+                  <p>Jackets</p>
+                  <p>Blazers & Coats</p>
+                  <p>Suits</p>
+                  <p>Rain Jackets</p>
+                </div>
+                <hr>
+                <div class="festivewear">
+                  <h4>Indian & Festive Wear</h4>
+                  <p>Kurtas & Kurta Sets</p>
+                  <p>Sherwanis</p>
+                  <p>Nehru Jackets</p>
+                  <p>Dhotis</p>
+                </div>
+              </div>
+              <div class="drop2">
+                <div class="Bottomwear">
+                  <h4>Bottomwear</h4>
+                  <p>Jeans</p>
+                  <p>Casual Trousers</p>
+                  <p>Formal Trousers</p>
+                  <p>Shorts</p>
+                  <p>Track Pants & Joggers</p>
+                </div>
+                <hr>
+                <div class="innerwear">
+                  <h4>innerwear & Sleepwear</h4>
+                  <p>Briefs & Trunks</p>
+                  <p>Boxers</p>
+                  <p>Vests</p>
+                  <p>Sleepwear & Loungewear</p>
+                  <p>Thermals</p>
+                </div>
+                <div class="plusSize"></div>
+              </div>
+              <div class="drop1">
+                <div class="Footwear">
+                  <h4>Footwear</h4>
+                  <p>Casual Shoes</p>
+                  <p>Sports Shoes</p>
+                  <p>Formal Shoes</p>
+                  <p>Sneakers</p>
+                  <p>Sandals & Floaters</p>
+                  <p>Flip Flops</p>
+                  <p>Socks</p>
+                </div>
+                <hr>
+                <div class="factionwear">
+                  <h4>Personal Care & Grooming</h4>
+                  <h4>Sunglasses & Frames</h4>
+                  <h4>Watches</h4>
+                </div>
+              </div>
+              <div class="drop2">
+                <div class="Sportswear">
+                  <h4>Sports & Active Wear</h4>
+                  <p>Sports Shoes</p>
+                  <p>Sports Sandals</p>
+                  <p>Active T-Shirts</p>
+                  <p>Track Pants & Shorts</p>
+                  <p>Tracksuits</p>
+                  <p>Jackets & Sweatshirts</p>
+                  <p>Sports Accessories</p>
+                  <p>Swimwear</p>
+                </div>
+                <hr>
+                <div class="Gadgets">
+                  <h4>Gadgets</h4>
+                  <p>Smart Wearables</p>
+                  <p>Fitness Gadgets</p>
+                  <p>Headphones</p>
+                  <p>Speakers</p>
+                </div>
+              </div>
+             
+              <div class="drop1">
+                
+                <div class="factionaccessories">
+                  <h4>Faction Accessories</h4>
+                  <p>Wallets</p>
+                  <p>Belts</p>
+                  <p>Perfumes & Body Mists</p>
+                  <p>Trimmers</p>
+                  <p>Deodorants</p>
+                  <p>Ties,Cufflinks & Pockets Squares</p>
+                  <p>Accessory Gift Sets</p>
+                  <p>Caps & Hats</p>
+                  <p>Mufflers, Scarves & Gloves</p>
+                  <p>Phone Cases</p>
+                  <p>Rings & Wristwear</p>
+                  <p>Helmets</p>
+                </div>
+                <hr>
+                <div class="travelsacc">
+                  <h4>Bags & Backpacks</h4>
+                  <h4>Luggages & Trolleys</h4>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        <div class="dropdown">
+          <div><a class="text" href="#">HOME&nbsp&&nbspLIVING</a></div>
+  
+          <div class="dropdown-content" id="left3">
+            <div class="maindrop">
+              <div class="drop1">
+                <div class="topwers">
+                  <h4>Topwers</h4>
+                  <p>T-shirts</p>
+                  <p>Casuals Shirts</p>
+                  <p>Formal Shirts</p>
+                  <p>Sweatshirts</p>
+                  <p>Sweaters</p>
+                  <p>Jackets</p>
+                  <p>Blazers & Coats</p>
+                  <p>Suits</p>
+                  <p>Rain Jackets</p>
+                </div>
+                <hr>
+                <div class="festivewear">
+                  <h4>Indian & Festive Wear</h4>
+                  <p>Kurtas & Kurta Sets</p>
+                  <p>Sherwanis</p>
+                  <p>Nehru Jackets</p>
+                  <p>Dhotis</p>
+                </div>
+              </div>
+              <div class="drop2">
+                <div class="Bottomwear">
+                  <h4>Bottomwear</h4>
+                  <p>Jeans</p>
+                  <p>Casual Trousers</p>
+                  <p>Formal Trousers</p>
+                  <p>Shorts</p>
+                  <p>Track Pants & Joggers</p>
+                </div>
+                <hr>
+                <div class="innerwear">
+                  <h4>innerwear & Sleepwear</h4>
+                  <p>Briefs & Trunks</p>
+                  <p>Boxers</p>
+                  <p>Vests</p>
+                  <p>Sleepwear & Loungewear</p>
+                  <p>Thermals</p>
+                </div>
+                <div class="plusSize"></div>
+              </div>
+              <div class="drop1">
+                <div class="Footwear">
+                  <h4>Footwear</h4>
+                  <p>Casual Shoes</p>
+                  <p>Sports Shoes</p>
+                  <p>Formal Shoes</p>
+                  <p>Sneakers</p>
+                  <p>Sandals & Floaters</p>
+                  <p>Flip Flops</p>
+                  <p>Socks</p>
+                </div>
+                <hr>
+                <div class="factionwear">
+                  <h4>Personal Care & Grooming</h4>
+                  <h4>Sunglasses & Frames</h4>
+                  <h4>Watches</h4>
+                </div>
+              </div>
+              <div class="drop2">
+                <div class="Sportswear">
+                  <h4>Sports & Active Wear</h4>
+                  <p>Sports Shoes</p>
+                  <p>Sports Sandals</p>
+                  <p>Active T-Shirts</p>
+                  <p>Track Pants & Shorts</p>
+                  <p>Tracksuits</p>
+                  <p>Jackets & Sweatshirts</p>
+                  <p>Sports Accessories</p>
+                  <p>Swimwear</p>
+                </div>
+                <hr>
+                <div class="Gadgets">
+                  <h4>Gadgets</h4>
+                  <p>Smart Wearables</p>
+                  <p>Fitness Gadgets</p>
+                  <p>Headphones</p>
+                  <p>Speakers</p>
+                </div>
+              </div>
+             
+              <div class="drop1">
+                
+                <div class="factionaccessories">
+                  <h4>Faction Accessories</h4>
+                  <p>Wallets</p>
+                  <p>Belts</p>
+                  <p>Perfumes & Body Mists</p>
+                  <p>Trimmers</p>
+                  <p>Deodorants</p>
+                  <p>Ties,Cufflinks & Pockets Squares</p>
+                  <p>Accessory Gift Sets</p>
+                  <p>Caps & Hats</p>
+                  <p>Mufflers, Scarves & Gloves</p>
+                  <p>Phone Cases</p>
+                  <p>Rings & Wristwear</p>
+                  <p>Helmets</p>
+                </div>
+                <hr>
+                <div class="travelsacc">
+                  <h4>Bags & Backpacks</h4>
+                  <h4>Luggages & Trolleys</h4>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        <div class="dropdown">
+          <div><a class="text" href="#">BEAUTY</a></div>
+  
+          <div class="dropdown-content" id="left4">
+            <div class="maindrop">
+              <div class="drop1">
+                <div class="topwers">
+                  <h4>Topwers</h4>
+                  <p>T-shirts</p>
+                  <p>Casuals Shirts</p>
+                  <p>Formal Shirts</p>
+                  <p>Sweatshirts</p>
+                  <p>Sweaters</p>
+                  <p>Jackets</p>
+                  <p>Blazers & Coats</p>
+                  <p>Suits</p>
+                  <p>Rain Jackets</p>
+                </div>
+                <hr>
+                <div class="festivewear">
+                  <h4>Indian & Festive Wear</h4>
+                  <p>Kurtas & Kurta Sets</p>
+                  <p>Sherwanis</p>
+                  <p>Nehru Jackets</p>
+                  <p>Dhotis</p>
+                </div>
+              </div>
+              <div class="drop2">
+                <div class="Bottomwear">
+                  <h4>Bottomwear</h4>
+                  <p>Jeans</p>
+                  <p>Casual Trousers</p>
+                  <p>Formal Trousers</p>
+                  <p>Shorts</p>
+                  <p>Track Pants & Joggers</p>
+                </div>
+                <hr>
+                <div class="innerwear">
+                  <h4>innerwear & Sleepwear</h4>
+                  <p>Briefs & Trunks</p>
+                  <p>Boxers</p>
+                  <p>Vests</p>
+                  <p>Sleepwear & Loungewear</p>
+                  <p>Thermals</p>
+                </div>
+                <div class="plusSize"></div>
+              </div>
+              <div class="drop1">
+                <div class="Footwear">
+                  <h4>Footwear</h4>
+                  <p>Casual Shoes</p>
+                  <p>Sports Shoes</p>
+                  <p>Formal Shoes</p>
+                  <p>Sneakers</p>
+                  <p>Sandals & Floaters</p>
+                  <p>Flip Flops</p>
+                  <p>Socks</p>
+                </div>
+                <hr>
+                <div class="factionwear">
+                  <h4>Personal Care & Grooming</h4>
+                  <h4>Sunglasses & Frames</h4>
+                  <h4>Watches</h4>
+                </div>
+              </div>
+              <div class="drop2">
+                <div class="Sportswear">
+                  <h4>Sports & Active Wear</h4>
+                  <p>Sports Shoes</p>
+                  <p>Sports Sandals</p>
+                  <p>Active T-Shirts</p>
+                  <p>Track Pants & Shorts</p>
+                  <p>Tracksuits</p>
+                  <p>Jackets & Sweatshirts</p>
+                  <p>Sports Accessories</p>
+                  <p>Swimwear</p>
+                </div>
+                <hr>
+                <div class="Gadgets">
+                  <h4>Gadgets</h4>
+                  <p>Smart Wearables</p>
+                  <p>Fitness Gadgets</p>
+                  <p>Headphones</p>
+                  <p>Speakers</p>
+                </div>
+              </div>
+             
+              <div class="drop1">
+                
+                <div class="factionaccessories">
+                  <h4>Faction Accessories</h4>
+                  <p>Wallets</p>
+                  <p>Belts</p>
+                  <p>Perfumes & Body Mists</p>
+                  <p>Trimmers</p>
+                  <p>Deodorants</p>
+                  <p>Ties,Cufflinks & Pockets Squares</p>
+                  <p>Accessory Gift Sets</p>
+                  <p>Caps & Hats</p>
+                  <p>Mufflers, Scarves & Gloves</p>
+                  <p>Phone Cases</p>
+                  <p>Rings & Wristwear</p>
+                  <p>Helmets</p>
+                </div>
+                <hr>
+                <div class="travelsacc">
+                  <h4>Bags & Backpacks</h4>
+                  <h4>Luggages & Trolleys</h4>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+  
+        <!-- <div><a class="text" href="#">MEN</a></div> -->
+        <!-- <div><a class="text" href="#">WOMEN</a></div>
+        <div><a class="text" href="#">KIDS</a></div>
+        <div><a class="text" href="#">HOME&LIVING</a></div>
+        <div><a class="text" href="#">BEAUTY</a></div> -->
+        <div>
+          <a class="text" href="#">STUDIO<sup>NEW</sup></a>
+        </div>
+        <div class="form-group has-search flex-grow-1">
+          <span class="fa fa-search form-control-feedback"> </span>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Search for Products Branda and More"
+          />
+        </div>
+  
+        <!-- <div class="dropdown">
+          <button class="dropbtn">Dropdown</button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div> -->
+  
+  
+  
+  
+        <div class="dropdown">
+  
+          <div classs="dropbtn"
+           class="profile">
+            <div class="logali" id="logid">
+              <i class="fas fa-user"></i>
+            </div>
+            <p>profile</p>
+  
+            <div class="dropdown-content" id="leftpro">
+              <h3 id="wel">Welcome</h3>
+              <p>To access account and manage orders</p>
+              <div id="logandsign">
+  
+                  <h4>LOGIN/SIGNUP</h4>
+              </div>
+              <!-- <h5>Hello madhu</h5>
+              <p>6303469572</p> -->
+              <hr>
+              <p>Orders</p>
+              <p>Wishlist</p>
+              <p>Gift Cards</p>
+              <p>Contact Us</p>
+              <p>Myntra Insider</p>
+              <hr>
+              <p>Myntra Credit</p>
+              <p>Coupons</p>
+              <p>Saved Cards</p>
+              <p>Saved Addresses</p>
+              <hr>
+              <p>Edit Proflie</p>
+              <p>Logout</p>
+  
+            </div>
+  
+          </div>
+  
+        </div>
+        
+        <div class="profile">
+          <div class="logali">
+            <img src="https://cdn-icons-png.flaticon.com/128/1077/1077035.png" />
+          </div>
+          <p>Wishlist</p>
+        </div>
+        <div class="profile">
+          <div class="logali">
+            <img src="https://cdn-icons-png.flaticon.com/512/3144/3144456.png" />
+          </div>
+          <p>Bag</p>
+        </div>
+        <!-- <div class="profile"><div class="logali"><img src="https://t4.ftcdn.net/jpg/02/73/80/67/240_F_273806760_iAomZ7bkcoCNd9cF6PYkJgRFkevDXgl5.jpg"></div><p>Bag</p></div> -->
+      </div>
+
+      <!-- menspage -->
+
+      <!-- silding images -->
+
+      <div class="w3-content w3-section">
+        <img class="mySlides" src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/3/846beb79-ada7-48c3-a6c6-4448f276c2111651599573979-Sports-Shoes_Desk.jpg" style="width:100%">
+        <img class="mySlides" src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/3/b54399f0-6ed5-44b3-84b0-e9d5c1657aaa1651599573991-CR7_Desk_Baner.jpg" style="width:100%">
+        <img class="mySlides" src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/3/e384cb32-690c-4ccf-a6cb-61df36960bb21651599573972-Workwear_Desk.jpg" style="width:100%">
+      </div>
+      <div id="imgoff">
+        <img id="imgoffsize" src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/7/ad10e2ac-a6cb-4080-a254-5db6a9010c481651913751854-DK-extra-TSHIRT-6.gif">
+      </div>
+
+
+
+
+      <h1>BIGGEST DEALS ON TOP BRANDS</h1>
+
+      <div id="dealsonbrands"></div>
+
+      <h1>CATEGORIES TO BAG</h1>
+
+      <div id="catoffbag"></div>
+
+      <h1>EXPLORE TOP BRANDS</h1>
+
+      <div id="topbrands"></div>
+
+      <h1>MYNTRA LUXE</h1>
+
+      <div id="MyntraLux"></div>
+
+      <h1>TRENDING IN INDIAN WEAR</h1>
+
+      <div id="indianwear"></div>
+
+      <h1>TRENDING IN SPORTS WEAR</h1>
+
+      <div id="sports"></div>
+
+      <h1>TRENDING IN FOOTWEAR</h1>
+
+      <div id="foot"></div>
+
+      <h1>TRENDING IN ACCESSORIES</h1>
+
+      <div id="Assessorie"></div>
+
+
+      <div class="div">
+        <div class="container">
+          <div id="onlineshopping">
+            <p class="HEADBOLD">ONLINE SHOPPING</p>
+  
+            <p>Men</p>
+            <p>women</p>
+            <p>Kids</p>
+            <p>Home&Living</p>
+            <p>Beauty</p>
+            <p>Gift</p>
+            <p>Myntra lnsider<spam id="supdivred">New</spam></p>
+          </div>
+          <div>
+            <p class="HEADBOLD">USEFUL LINKS</p>
+            <div id="usefullinks">
+              <p>Contact Us</p>
+              <p>FAQ</p>
+              <p>T&C</p>
+              <p>Teams of Use</p>
+              <p>Track Orders</p>
+              <p>Shipping</p>
+              <p>Cancellation</p>
+              <p>Returns</p>
+              <p>Whitehat</p>
+              <p>Blog</p>
+              <p>Careers</p>
+              <p>Privacy policy</p>
+              <p>Site Map</p>
+              <p>Corporate Information</p>
+            </div>
+          </div>
+          <div id="apponmobile">
+            <p class="HEADBOLD">EXPERIENCE MYNTRA APP ON MOBILE</p>
+            <div id="apps">
+              <div class="playstore">
+                <img
+                  src="https://constant.myntassets.com/web/assets/img/80cc455a-92d2-4b5c-a038-7da0d92af33f1539674178924-google_play.png"
+                  alt="google play"
+                />
+              </div>
+              <div class="playstore">
+                <img
+                  src="https://constant.myntassets.com/web/assets/img/bc5e11ad-0250-420a-ac71-115a57ca35d51539674178941-apple_store.png"
+                  alt="app store"
+                />
+              </div>
+            </div>
+            <p class="HEADBOLD">KEEP IN TOUCH</p>
+            <div id="keepintouch">
+              <div class="socialmedia">
+                <img
+                  src="https://constant.myntassets.com/web/assets/img/d2bec182-bef5-4fab-ade0-034d21ec82e31574604275433-fb.png"
+                  alt="facebook"
+                />
+              </div>
+              <div class="socialmedia">
+                <img
+                  src="https://constant.myntassets.com/web/assets/img/f10bc513-c5a4-490c-9a9c-eb7a3cc8252b1574604275383-twitter.png"
+                  alt="twiter"
+                />
+              </div>
+              <div class="socialmedia">
+                <img
+                  src="https://constant.myntassets.com/web/assets/img/a7e3c86e-566a-44a6-a733-179389dd87111574604275355-yt.png"
+                  alt="youtube"
+                />
+              </div>
+              <div class="socialmedia">
+                <img
+                  src="https://constant.myntassets.com/web/assets/img/b4fcca19-5fc1-4199-93ca-4cae3210ef7f1574604275408-insta.png"
+                  alt="instagram"
+                />
+              </div>
+            </div>
+          </div>
+          <div id="organdreturn">
+            <div class="org">
+              <div class="image">
+                <img
+                  src="https://constant.myntassets.com/web/assets/img/6c3306ca-1efa-4a27-8769-3b69d16948741574602902452-original.png"
+                  alt="orignal"
+                />
+              </div>
+              <div class="tex">
+                <p>
+                  <spam class="orgtxt">100% ORIGINAL</spam>grarantee<br />for all
+                  products at myntra.com
+                </p>
+              </div>
+            </div>
+            <div class="org">
+              <div class="image">
+                <img
+                  src="https://constant.myntassets.com/web/assets/img/ef05d6ec-950a-4d01-bbfa-e8e5af80ffe31574602902427-30days.png"
+                  alt="returndays"
+                />
+              </div>
+              <div class="tex">
+                <p>
+                  <spam class="orgtxt">Return within 30days</spam
+                  >of<br />receiving your order
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+  
+  
+           <!-- bottom TEXT PART -->
+        <div class="oo">
+          <div class="container">
+            <p id="afterline"><spam class="HEADBOLD">POPULAR SEARCHES</spam></p>
+            <hr
+              class="mx-3"
+              style="
+                background: rgb(196, 196, 196);
+                height: 3px;
+                margin-top: 20px;
+              "
+            />
+          </div>
+        </div>
+        <div class="o">
+          <p>
+            Makeup | Dresses For Girls | T-Shirts | Sandals |Headphones| Babydolls|
+            Blazers For Men| Handbags| Ladies Watches| Bags | Sport Shoes | Reebok Shoes |
+            Puma Shoes|  Boxers | Wallets | Tops | Earrings | Fastrack Watches | Kurtis | Nike
+            | Smart Watches | Titan Watches | Designer Blouse | Gowns | Rings | Cricket Shoes |
+            Forever 21 Eye Makeup | Photo Frames | Punjabi Suits | Bikini Myntra|
+            Fashion Show Lipstick | Saree | Watches | Dresses|  Lehenga | Nike Shoes | Goggles
+            Bras | Suit Chinos | Shoes Adidas | Shoes Woodland | Shoes Jewellery | Designers
+            Sarees
+          </p>
+        </div>
+        <div id="theend">
+          <div>Have issues ?<spam id="contact"> Contact Us</spam></div>
+          <div>
+            © 2022 www.myntra.com. All rights reserved.</div>
+            <div>A Flipkart company</div>
+        </div>
+      </div>
+
+
+</body>
+</html>
+<script src="./menspage.js"></script>
